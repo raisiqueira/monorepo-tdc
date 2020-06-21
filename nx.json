@@ -13,6 +13,13 @@
     },
     "react-tdc-e2e": {
       "tags": []
+    },
+    "angular-tdc": {
+      "tags": []
+    },
+    "angular-tdc-e2e": {
+      "tags": [],
+      "implicitDependencies": ["angular-tdc"]
     }
   }
 }
