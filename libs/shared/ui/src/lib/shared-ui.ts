@@ -1,4 +1,18 @@
-export class TdcButton extends HTMLButtonElement {
+// type Omit<T, K extends keyof T> = Pick<T, Exclude<keyof T, K>>;
+
+// export type JSXify<T extends Element> = Partial<
+//   Omit<T, 'children'> & { children?: any[] }
+// >;
+
+// declare global {
+//   namespace JSX {
+//     interface IntrinsicElements {
+//       'tdc-button': JSXify<TdcButton>;
+//     }
+//   }
+// }
+
+export class TdcButton extends HTMLElement {
   constructor() {
     super();
     console.log('Hey from the Web component button, a.k.a tdc-button!');
