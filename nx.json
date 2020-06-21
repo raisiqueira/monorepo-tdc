@@ -20,6 +20,9 @@
     "angular-tdc-e2e": {
       "tags": [],
       "implicitDependencies": ["angular-tdc"]
+    },
+    "shared-ui": {
+      "tags": []
     }
   }
 }
