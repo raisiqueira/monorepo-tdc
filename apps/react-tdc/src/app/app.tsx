@@ -1,6 +1,6 @@
 import React from 'react';
-
 import styled from '@emotion/styled';
+import '@monorepo-tdc/shared/ui';
 
 const StyledApp = styled.div`
   /*
@@ -241,6 +241,7 @@ nx affected:e2e
 `}</pre>
         </details>
       </main>
+      <tdc-button label-text="Hello TDC from React"></tdc-button>
     </StyledApp>
   );
 };

@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import '@monorepo-tdc/shared/ui';
 
 @Component({
   selector: 'monorepo-tdc-root',
