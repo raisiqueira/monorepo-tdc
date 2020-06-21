@@ -21,7 +21,7 @@
             ],
             "styles": [],
             "scripts": [],
-            "webpackConfig": "@nrwl/react/plugins/babel"
+            "webpackConfig": "@nrwl/react/plugins/webpack"
           },
           "configurations": {
             "production": {
@@ -68,7 +68,10 @@
               "apps/react-tdc/tsconfig.app.json",
               "apps/react-tdc/tsconfig.spec.json"
             ],
-            "exclude": ["**/node_modules/**", "!apps/react-tdc/**"]
+            "exclude": [
+              "**/node_modules/**",
+              "!apps/react-tdc/**"
+            ]
           }
         },
         "test": {
@@ -103,8 +106,13 @@
           "options": {
             "linter": "eslint",
             "config": "apps/react-tdc-e2e/.eslintrc",
-            "tsConfig": ["apps/react-tdc-e2e/tsconfig.e2e.json"],
-            "exclude": ["**/node_modules/**", "!apps/react-tdc-e2e/**"]
+            "tsConfig": [
+              "apps/react-tdc-e2e/tsconfig.e2e.json"
+            ],
+            "exclude": [
+              "**/node_modules/**",
+              "!apps/react-tdc-e2e/**"
+            ]
           }
         }
       }
@@ -133,7 +141,9 @@
               "apps/angular-tdc/src/favicon.ico",
               "apps/angular-tdc/src/assets"
             ],
-            "styles": ["apps/angular-tdc/src/styles.scss"],
+            "styles": [
+              "apps/angular-tdc/src/styles.scss"
+            ],
             "scripts": []
           },
           "configurations": {
@@ -191,7 +201,10 @@
               "apps/angular-tdc/tsconfig.app.json",
               "apps/angular-tdc/tsconfig.spec.json"
             ],
-            "exclude": ["**/node_modules/**", "!apps/angular-tdc/**/*"]
+            "exclude": [
+              "**/node_modules/**",
+              "!apps/angular-tdc/**/*"
+            ]
           }
         },
         "test": {
@@ -226,8 +239,13 @@
         "lint": {
           "builder": "@angular-devkit/build-angular:tslint",
           "options": {
-            "tsConfig": ["apps/angular-tdc-e2e/tsconfig.e2e.json"],
-            "exclude": ["**/node_modules/**", "!apps/angular-tdc-e2e/**/*"]
+            "tsConfig": [
+              "apps/angular-tdc-e2e/tsconfig.e2e.json"
+            ],
+            "exclude": [
+              "**/node_modules/**",
+              "!apps/angular-tdc-e2e/**/*"
+            ]
           }
         }
       }
@@ -245,7 +263,10 @@
               "libs/shared/ui/tsconfig.lib.json",
               "libs/shared/ui/tsconfig.spec.json"
             ],
-            "exclude": ["**/node_modules/**", "!libs/shared/ui/**/*"]
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/shared/ui/**/*"
+            ]
           }
         },
         "test": {
