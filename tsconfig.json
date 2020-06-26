@@ -16,7 +16,8 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@monorepo-tdc/shared/ui": ["libs/shared/ui/src/index.ts"]
+      "@monorepo-tdc/shared/ui": ["libs/shared/ui/src/index.ts"],
+      "@monorepo-tdc/shared/services": ["libs/shared/services/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
